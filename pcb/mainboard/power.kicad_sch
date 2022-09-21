@@ -1,0 +1,16 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 90448b43-fc0c-4ea2-88b0-5158ca8b5060)
+
+  (paper "A4")
+
+  (title_block
+    (title "Sharket")
+    (date "2022-09-21")
+    (rev "0.0")
+  )
+
+  (lib_symbols
+  )
+
+)
