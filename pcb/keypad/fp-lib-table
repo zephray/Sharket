@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "keypad")(type "KiCad")(uri "${KIPRJMOD}/keypad.pretty")(options "")(descr ""))
+)

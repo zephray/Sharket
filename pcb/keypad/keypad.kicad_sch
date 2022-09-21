@@ -1,0 +1,249 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 81022529-8b4c-47e6-b6ad-d7d59d8e715f)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "https://oshwlab.com/AlexLynd/TI_83_Schematic-c8a100536da14f7c957eb5980c3bc8f6"
+    (at 167.64 30.48 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b87fbb7b-35cf-4277-aaa9-135903568c8c)
+  )
+
+  (sheet (at 73.66 60.96) (size 35.56 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 80e98c8d-e501-48c5-95d9-595a1be22de9)
+    (property "Sheet name" "Keys" (id 0) (at 73.66 60.2484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "keypad_keys.kicad_sch" (id 1) (at 73.66 94.5646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "KC5" passive (at 73.66 68.58 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid d5fc93a9-ab36-41c4-88c3-c91a76c21ac3)
+    )
+    (pin "KC4" passive (at 73.66 71.12 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 45f8c609-45e6-4b50-b6af-d88e5ebaec6a)
+    )
+    (pin "KC1" passive (at 73.66 78.74 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid fee7458f-5b14-4a24-8439-96bd6bda3278)
+    )
+    (pin "ON" passive (at 73.66 86.36 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 0c9bd188-f8e1-47f4-a958-828cee870d27)
+    )
+    (pin "KC3" passive (at 73.66 73.66 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid c532e014-8b85-4091-b720-2be7e0403e84)
+    )
+    (pin "KC2" passive (at 73.66 76.2 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid baf8d929-b5d6-4159-8741-f297a69f1ac7)
+    )
+    (pin "KC0" passive (at 73.66 81.28 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 6a6cc2ee-b162-4910-9595-4137cb3c02a2)
+    )
+    (pin "KR5" passive (at 109.22 76.2 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 9b493808-7cb2-41ef-b631-be456e66c70d)
+    )
+    (pin "KR6" passive (at 109.22 78.74 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid c7c5321a-2204-4ef0-a740-e25687db4b87)
+    )
+    (pin "KC6" passive (at 73.66 66.04 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid fec24cdf-ac76-450f-8295-82e1235e8a86)
+    )
+    (pin "KR4" passive (at 109.22 73.66 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 1d1295c7-501a-4396-85e1-06a2ee70d93f)
+    )
+    (pin "KR2" passive (at 109.22 68.58 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 3cef4e08-235d-47ea-8f36-d4af41f9004b)
+    )
+    (pin "KR3" passive (at 109.22 71.12 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 7a6e3954-102b-4958-8773-b3ed76d620b7)
+    )
+    (pin "KR0" passive (at 109.22 63.5 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 5b483448-8e9a-453d-9eab-83bfa2385d0e)
+    )
+    (pin "KR1" passive (at 109.22 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 7d5c9093-3dcd-4b45-bc0f-6b149cf52e4e)
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/b3ac44f0-1b79-455d-be84-169ccf74f32a"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/5cc03a12-11c9-4057-81a9-ef199075e132"
+      (reference "SW1") (unit 1) (value "Y=") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/ba0b65cb-bd10-4933-99aa-4095c25c36fe"
+      (reference "SW2") (unit 1) (value "2ND") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/0442cc12-5b8b-49b1-a488-6b2f6e5ac816"
+      (reference "SW3") (unit 1) (value "ALPHA") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/82950675-fe6e-471d-8d7d-f16072e7f8d4"
+      (reference "SW4") (unit 1) (value "MATH") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/c08363c0-0148-48ee-ada8-36adc37cc4d5"
+      (reference "SW5") (unit 1) (value "X-1") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/e3ea8fae-19d2-4f77-a97d-a2a46e5fff0a"
+      (reference "SW6") (unit 1) (value "X2") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/535839b2-48ab-4266-a719-089599b84ebc"
+      (reference "SW7") (unit 1) (value "LOG") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/d48b5746-fba5-4842-9492-363664fe7f43"
+      (reference "SW8") (unit 1) (value "LN") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/c81bcd66-f49a-4f94-9cac-b09365315b00"
+      (reference "SW9") (unit 1) (value "STO") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/cfea617d-1e6f-4ea2-a485-eb22688dafe3"
+      (reference "SW10") (unit 1) (value "ON") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/d9403911-18cf-4d54-8d0f-507ec1e20f4e"
+      (reference "SW11") (unit 1) (value "WINDOW") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/fb3343e2-b674-4f9d-a239-186418f6a45f"
+      (reference "SW12") (unit 1) (value "MODE") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/fe665c69-39c7-48d7-bfee-2ea4efbae430"
+      (reference "SW13") (unit 1) (value "XTTN") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/e0e3bd80-705f-4e7c-a6c2-1a4b13cff83e"
+      (reference "SW14") (unit 1) (value "APPS") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/c70edfa1-de37-49f5-9118-eb4a745fb47c"
+      (reference "SW15") (unit 1) (value "SIN") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/313f76d3-e350-4604-8503-9d75184e82ef"
+      (reference "SW16") (unit 1) (value "COMMA") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/7b19b43c-eb81-42bb-ba3d-7ad7e8ef7ffe"
+      (reference "SW17") (unit 1) (value "7") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/c9f5ce91-fa9a-400e-ac6d-ae7d28712fb2"
+      (reference "SW18") (unit 1) (value "4") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/bd9da721-0d89-4403-8fd3-e54c529d4b9c"
+      (reference "SW19") (unit 1) (value "1") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/5b92c2f6-1fa4-454c-b064-de186913a0a1"
+      (reference "SW20") (unit 1) (value "0") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/49b36fca-d581-48f5-8986-e8e1dd1a6361"
+      (reference "SW21") (unit 1) (value "ZOOM") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/409ff3c8-de8a-4795-ab5f-322239fd9374"
+      (reference "SW22") (unit 1) (value "DEL") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/c0e0108c-5300-4496-9cef-3d6747d152ab"
+      (reference "SW23") (unit 1) (value "STAT") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/99262f9b-a122-423f-bca7-069416349694"
+      (reference "SW24") (unit 1) (value "PRGM") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/f9cbbc48-6cd7-49cb-8aeb-711a64b67376"
+      (reference "SW25") (unit 1) (value "COS") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/2edd873c-5be1-4f78-b25e-3d0338dac29c"
+      (reference "SW26") (unit 1) (value "LBRACKET") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/07b324d5-30c3-4a08-83db-55c1fe92f35f"
+      (reference "SW27") (unit 1) (value "8") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/19cab617-a8e1-4162-8740-bfabbcfa5c8d"
+      (reference "SW28") (unit 1) (value "5") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/c5c2fe67-a85d-49ba-8760-3e36efb6577b"
+      (reference "SW29") (unit 1) (value "2") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/a9af4ed6-79b3-4931-807c-be0c504e0a59"
+      (reference "SW30") (unit 1) (value "DOT") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/9c3bbf15-4841-4537-9c32-94b80580766e"
+      (reference "SW31") (unit 1) (value "L") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/fd5f9833-8a48-4861-b659-37910f811b74"
+      (reference "SW32") (unit 1) (value "TRACE") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/dc5140a5-b16f-4ab4-adfe-7cd74bebb405"
+      (reference "SW33") (unit 1) (value "VARS") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/46589e99-883d-4e5a-bc0e-8639e3059c2e"
+      (reference "SW34") (unit 1) (value "TAN") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/f6933f95-2ed4-4b08-8656-2be217b96165"
+      (reference "SW35") (unit 1) (value "RBRACKET") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/d69288d2-090f-4c25-89cf-5bfffcf01a45"
+      (reference "SW36") (unit 1) (value "9") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/691b4c8f-cc0b-48c9-851c-abf775e79496"
+      (reference "SW37") (unit 1) (value "6") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/7c94111c-46a6-414a-a58d-648e359920de"
+      (reference "SW38") (unit 1) (value "3") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/d226064a-e188-404a-b808-a58f0ec9cd3a"
+      (reference "SW39") (unit 1) (value "NEG") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/4a7a685a-91ff-4052-a4ec-c01229f9b36d"
+      (reference "SW40") (unit 1) (value "U") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/8bd4ba38-0461-4f43-8f39-1c7760f1b383"
+      (reference "SW41") (unit 1) (value "D") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/92337136-789e-4098-a393-c3c254de6524"
+      (reference "SW42") (unit 1) (value "GRAPH") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/7fa2219d-3cb4-4a2e-8d8c-89f1f2a5cfdb"
+      (reference "SW43") (unit 1) (value "CLEAR") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/98f240ff-75f9-4919-ac45-82e84aeb10cd"
+      (reference "SW44") (unit 1) (value "HAT") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/457418c2-eaf1-4a0c-b7fb-749ac47900e5"
+      (reference "SW45") (unit 1) (value "DIV") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/be856ec4-6552-47db-80e6-e84cd3e9e0e2"
+      (reference "SW46") (unit 1) (value "MUL") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/a2788a25-ebb5-4099-ab63-06896d3e1199"
+      (reference "SW47") (unit 1) (value "SUB") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/93d536af-d30d-4ad4-95de-6a712d33a599"
+      (reference "SW48") (unit 1) (value "ADD") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/472aeaeb-46f2-4661-8b59-52b65638c35a"
+      (reference "SW49") (unit 1) (value "ENTER") (footprint "keypad:key2")
+    )
+    (path "/80e98c8d-e501-48c5-95d9-595a1be22de9/e383a050-dfd3-4b4e-8bbc-75d03c17ea16"
+      (reference "SW50") (unit 1) (value "R") (footprint "keypad:key2")
+    )
+  )
+)
