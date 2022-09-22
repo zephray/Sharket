@@ -2830,7 +2830,7 @@
   (no_connect (at 127 121.92) (uuid a4701694-8bcb-4df8-975c-e0448fe7a5ea))
   (no_connect (at 127 116.84) (uuid b02275ad-7b62-4e58-be3c-31d4086cb482))
   (no_connect (at 127 127) (uuid cdb0c4b1-4a5a-4304-9c20-49d08865ce22))
-  (no_connect (at 127 132.08) (uuid cdb0c4b1-4a5a-4304-9c20-49d08865ce22))
+  (no_connect (at 127 132.08) (uuid cdb0c4b1-4a5a-4304-9c20-49d08865ce23))
 
   (wire (pts (xy 193.04 96.52) (xy 190.5 96.52))
     (stroke (width 0) (type solid) (color 0 0 0 0))
