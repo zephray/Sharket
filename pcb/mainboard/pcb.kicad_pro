@@ -516,24 +516,6 @@
         "microvia_drill": 0.1,
         "name": "SDRAM",
         "nets": [
-          "SDRAM_A0",
-          "SDRAM_A1",
-          "SDRAM_A10",
-          "SDRAM_A11",
-          "SDRAM_A12",
-          "SDRAM_A2",
-          "SDRAM_A3",
-          "SDRAM_A4",
-          "SDRAM_A5",
-          "SDRAM_A6",
-          "SDRAM_A7",
-          "SDRAM_A8",
-          "SDRAM_A9",
-          "SDRAM_BA0",
-          "SDRAM_BA1",
-          "SDRAM_CAS",
-          "SDRAM_CKE",
-          "SDRAM_CLK",
           "SDRAM_CS0",
           "SDRAM_D0",
           "SDRAM_D1",
@@ -543,24 +525,8 @@
           "SDRAM_D13",
           "SDRAM_D14",
           "SDRAM_D15",
-          "SDRAM_D16",
-          "SDRAM_D17",
-          "SDRAM_D18",
-          "SDRAM_D19",
           "SDRAM_D2",
-          "SDRAM_D20",
-          "SDRAM_D21",
-          "SDRAM_D22",
-          "SDRAM_D23",
-          "SDRAM_D24",
-          "SDRAM_D25",
-          "SDRAM_D26",
-          "SDRAM_D27",
-          "SDRAM_D28",
-          "SDRAM_D29",
           "SDRAM_D3",
-          "SDRAM_D30",
-          "SDRAM_D31",
           "SDRAM_D4",
           "SDRAM_D5",
           "SDRAM_D6",
@@ -568,11 +534,7 @@
           "SDRAM_D8",
           "SDRAM_D9",
           "SDRAM_DM0",
-          "SDRAM_DM1",
-          "SDRAM_DM2",
-          "SDRAM_DM3",
-          "SDRAM_RAS",
-          "SDRAM_WE"
+          "SDRAM_DM1"
         ],
         "pcb_color": "rgb(209, 208, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -644,10 +606,6 @@
   },
   "sheets": [
     [
-      "0da8b2d0-0667-4bc1-8e4c-0680a229f744",
-      ""
-    ],
-    [
       "00000000-0000-0000-0000-00005e1291bc",
       "power"
     ],
@@ -682,6 +640,10 @@
     [
       "ba52d8d5-10d5-4884-be56-8c1c736e861f",
       "wifibt"
+    ],
+    [
+      "0da8b2d0-0667-4bc1-8e4c-0680a229f744",
+      ""
     ]
   ],
   "text_variables": {}
