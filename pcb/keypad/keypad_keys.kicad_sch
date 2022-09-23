@@ -1890,7 +1890,7 @@
     (uuid cfea617d-1e6f-4ea2-a485-eb22688dafe3)
     (property "Reference" "SW10" (id 0) (at 43.18 165.1 0))
     (property "Value" "ON" (id 1) (at 43.18 167.64 0))
-    (property "Footprint" "keypad:key2" (id 2) (at 43.18 172.72 0)
+    (property "Footprint" "keypad:key3" (id 2) (at 43.18 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 43.18 172.72 0)
