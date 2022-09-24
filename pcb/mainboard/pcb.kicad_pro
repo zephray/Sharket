@@ -547,10 +547,7 @@
     "meta": {
       "version": 2
     },
-    "net_colors": {
-      "+1V8": "rgb(194, 0, 194)",
-      "+3V3": "rgb(194, 0, 0)"
-    }
+    "net_colors": null
   },
   "pcbnew": {
     "last_paths": {

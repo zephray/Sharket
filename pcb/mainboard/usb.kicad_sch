@@ -3150,7 +3150,7 @@
     (property "Reference" "L802" (id 0) (at 184.15 83.82 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "300R" (id 1) (at 184.15 86.36 90)
+    (property "Value" "120R" (id 1) (at 184.15 86.36 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (id 2) (at 181.61 88.9 0)
