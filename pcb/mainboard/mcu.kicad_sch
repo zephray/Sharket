@@ -6742,7 +6742,7 @@
   )
 
   (text "QSPI boot by default,\npress button changes to eMMC boot (invalid)\nso it should fallback to USB"
-    (at 210.82 25.4 0)
+    (at 238.76 38.1 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2081160e-10ba-4afe-b600-0be7a1744c12)
   )
@@ -6833,10 +6833,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "RTC_1P8" (shape input) (at 238.76 35.56 0) (fields_autoplaced)
+  (global_label "RTC_1P8" (shape input) (at 238.76 27.94 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 2ee5b5b3-16d5-4df9-aa93-95fa0c62159a)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 249.5279 35.6394 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 249.5279 28.0194 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
