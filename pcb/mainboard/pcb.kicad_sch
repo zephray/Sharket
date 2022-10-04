@@ -714,6 +714,9 @@
     (path "/ba52d8d5-10d5-4884-be56-8c1c736e861f/4f8d3ac7-32c1-434d-8c5f-b1db6776e6eb"
       (reference "#PWR0907") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005e1291bc/bb62e75a-e265-46b3-ae45-3c1051b252e1"
+      (reference "#PWR?") (unit 1) (value "+BATT") (footprint "")
+    )
     (path "/ba52d8d5-10d5-4884-be56-8c1c736e861f/1ac34600-bf60-4999-a583-f764800ebfef"
       (reference "ANT901") (unit 1) (value "Conn_01x02") (footprint "RF_Antenna:Texas_SWRA117D_2.4GHz_Right")
     )
@@ -1331,6 +1334,9 @@
     )
     (path "/ba52d8d5-10d5-4884-be56-8c1c736e861f/f8adf63d-7100-4da5-999f-f084f9f7bbf2"
       (reference "R902") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/81c8d95c-2ec3-4df7-adc0-a28a4b9f18a7/4b5a466a-e30d-46af-8620-815d0c1411f2"
+      (reference "R?") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005e1291bc/b72d7399-2838-4e3b-a500-04d0b3630812"
       (reference "SW101") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_SKQG_WithStem")
