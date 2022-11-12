@@ -1,0 +1,3 @@
+[submodule "firmware/uboot-imx"]
+	path = firmware/uboot-imx
+	url = https://github.com/andylithia/uboot-imx
