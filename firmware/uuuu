@@ -1,0 +1,15 @@
+uuu_version 1.2.135
+
+SDP: boot -f ./uboot-imx-sharket/flash.bin
+SDPS: boot -f ./uboot-imx-sharket/flash.bin
+SDPV: delay 1000
+SDPV: write -f ./uboot-imx-sharket/flash.bin -skipspl
+SDPV: jump
+FB: ucmd setenv fastboot_buffer ${loadaddr}
+FB: download -f ./linux-imx/arch/arm64/boot/Image
+FB: ucmd setenv fastboot_buffer ${fdt_addr}
+FB: download -f ./linux-imx/arch/arm64/boot/dts/freescale/sharket.dtb
+FB: ucmd setenv fastboot_buffer ${initrd_addr}
+FB: download -f ./buildroot-2022.02.10/output/images/rootfs.cpio.uboot
+FB: acmd booti ${loadaddr} ${initrd_addr} ${fdt_addr}
+FB: done

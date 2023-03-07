@@ -1,3 +1,12 @@
-[submodule "firmware/uboot-imx"]
-	path = firmware/uboot-imx
-	url = https://github.com/andylithia/uboot-imx
+[submodule "firmware/applications/shQuake"]
+	path = firmware/applications/shQuake
+	url = git@github.com:andylithia/shQuake
+[submodule "firmware/applications/CEmu-Sharket"]
+	path = firmware/applications/CEmu-Sharket
+	url = git@github.com:andylithia/CEmu-Sharket
+[submodule "firmware/uboot-imx-sharket"]
+	path = firmware/uboot-imx-sharket
+	url = git@github.com:andylithia/uboot-imx-sharket
+[submodule "firmware/linux-imx-sharket"]
+	path = firmware/linux-imx-sharket
+	url = git@github.com:andylithia/linux-imx-sharket
